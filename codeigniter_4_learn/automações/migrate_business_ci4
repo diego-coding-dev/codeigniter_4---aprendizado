@@ -1,0 +1,5 @@
+#!/bin/bash
+cd ..
+cd portifolio_ci4
+portifolio_ci4
+php spark migrate

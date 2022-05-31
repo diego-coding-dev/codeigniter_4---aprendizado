@@ -1,0 +1,12 @@
+#!/bin/bash
+cd ..
+cd portifolio_ci4
+php spark db:seed BrandsSeeder
+php spark db:seed ProductTypeSeeder
+php spark db:seed UserTypeSeeder
+php spark db:seed OperationTypeSeeder
+php spark db:seed TelephoneTypeSeeder
+php spark db:seed ClientSeeder
+php spark db:seed EmployeeSeeder
+php spark db:seed ProviderSeeder
+php spark db:seed ProductsSeeder
